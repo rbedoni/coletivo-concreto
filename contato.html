@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — Coletivo Concreto</title>
+<meta name="description" content="Conta o escopo do seu projeto. A equipe responde com prazo e proposta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand-mark">COLETIVO<span>·</span>CONCRETO</a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="processo.html">Processo</a>
+      <a href="portfolio.html">Portfólio</a>
+      <a href="contato.html" class="nav-cta" aria-current="page">Pedir orçamento</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">MENU</button>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom: 56px;">
+  <div class="wrap">
+    <span class="tag">Contato</span>
+    <h1 style="font-size: clamp(40px, 7vw, 80px);">Conta o escopo<br>do projeto.</h1>
+    <p class="lede">A equipe responde com prazo e proposta.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-2" style="background: none; border: none; gap: 64px; align-items: start;">
+
+      <form class="contact-form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div class="field">
+            <label for="empresa">Empresa</label>
+            <input type="text" id="empresa" name="empresa" required>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+          </div>
+          <div class="field full">
+            <label for="tipo">Tipo de projeto</label>
+            <select id="tipo" name="tipo">
+              <option>Institucional</option>
+              <option>Publicidade</option>
+              <option>Digital</option>
+              <option>Eventos</option>
+              <option>Motivacional</option>
+              <option>Marketing interno</option>
+              <option>Treinamento</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="prazo">Prazo desejado</label>
+            <input type="text" id="prazo" name="prazo" placeholder="Ex.: entrega em 6 semanas">
+          </div>
+          <div class="field full">
+            <label for="escopo">Escopo resumido</label>
+            <textarea id="escopo" name="escopo" required placeholder="Conta o que precisa ser produzido, para quem e onde vai ser usado."></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Solicitar proposta</button>
+        <p class="form-note form-status"></p>
+      </form>
+
+      <div>
+        <div class="card" style="padding: 0;">
+          <span class="mono" style="display:block; margin-bottom: 8px;">Direto</span>
+          <h3 style="margin-bottom: 4px;">contato@coletivoconcreto.com.br</h3>
+          <p style="margin-top: 20px;">São Paulo, SP</p>
+        </div>
+        <div class="card" style="padding: 0; margin-top: 40px;">
+          <span class="mono" style="display:block; margin-bottom: 8px;">Antes de enviar</span>
+          <p>Quanto mais específico o escopo — tipo de projeto, duração estimada, prazo e onde o material vai ser usado — mais rápida e precisa é a proposta.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="index.html" class="brand-mark">COLETIVO<span>·</span>CONCRETO</a>
+    <div class="footer-meta">
+      <div>São Paulo, SP</div>
+      <div class="mono">contato@coletivoconcreto.com.br</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
